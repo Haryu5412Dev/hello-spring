@@ -1,0 +1,4 @@
+2025-08-26T10:14:50.284+09:00  INFO 21748 --- [hello-spring] [Test worker] h.h.HelloSpringApplicationTests          : Starting HelloSpringApplicationTests using Java 17.0.12 with PID 21748 (started by User in C:\Users\User\Documents\GitHub\hellospring)
+2025-08-26T10:14:50.286+09:00  INFO 21748 --- [hello-spring] [Test worker] h.h.HelloSpringApplicationTests          : No active profile set, falling back to 1 default profile: "default"
+2025-08-26T10:14:51.285+09:00  INFO 21748 --- [hello-spring] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-08-26T10:14:51.664+09:00  INFO 21748 --- [hello-spring] [Test worker] h.h.HelloSpringApplicationTests          : Started HelloSpringApplicationTests in 1.717 seconds (process running for 3.077)
