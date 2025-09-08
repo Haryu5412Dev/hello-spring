@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'NeoDunggeunmo';
+    src: url('/font/neodgm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fafafa;
+    color: #111;
+    font-family: 'NeoDunggeunmo', sans-serif;
+}
+
+.wrap {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.hello {
+    font-size: 60px;
+    line-height: 1.3;
+    margin: 0 0 24px;
+}
+
+.sub {
+    margin: 6px 0 14px;
+    color: #444;
+    font-size: 18px;
+}
+
+.avatar {
+    width: 260px;
+    height: 260px;
+    margin: 0 auto 28px;
+    border-radius:50%;
+    overflow:hidden;
+    background:#eee center/cover no-repeat url("../img/pfp.png");
+    box-shadow:0 10px 24px rgba(0,0,0,.08);
+    transition: transform 0.3s ease;
+}
+
+.social {
+    display:flex;
+    gap:16px;
+    justify-content:center;
+    margin-top:20px;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    display: inline-grid;
+    place-items: center;
+    border-radius: 10px;
+    background: #000;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.icon svg {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+}
+
+footer {
+    margin-top:22px;
+    color:#bbb;
+    font-size:20px;
+}
+
+.avatar:hover,
+.icon:hover {
+    transform: translateY(-6px);
+}
+
+.goals {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.goals h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #222;
+}
+
+.goals ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #444;
+}
+
+.goals li::before {
+    content: "• ";
+    color: #111;
+    font-weight: bold;
+}

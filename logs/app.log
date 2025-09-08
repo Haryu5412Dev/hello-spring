@@ -1,79 +1,16 @@
-2025-08-26T10:14:50.284+09:00  INFO 21748 --- [hello-spring] [Test worker] h.h.HelloSpringApplicationTests          : Starting HelloSpringApplicationTests using Java 17.0.12 with PID 21748 (started by User in C:\Users\User\Documents\GitHub\hellospring)
-2025-08-26T10:14:50.286+09:00  INFO 21748 --- [hello-spring] [Test worker] h.h.HelloSpringApplicationTests          : No active profile set, falling back to 1 default profile: "default"
-2025-08-26T10:14:51.285+09:00  INFO 21748 --- [hello-spring] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2025-08-26T10:14:51.664+09:00  INFO 21748 --- [hello-spring] [Test worker] h.h.HelloSpringApplicationTests          : Started HelloSpringApplicationTests in 1.717 seconds (process running for 3.077)
-2025-08-26T10:51:56.174+09:00  INFO 13316 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 13316 (C:\Users\User\Documents\GitHub\hellospring\out\production\classes started by User in C:\Users\User\Documents\GitHub\hellospring)
-2025-08-26T10:51:56.176+09:00  INFO 13316 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
-2025-08-26T10:51:56.207+09:00  INFO 13316 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-08-26T10:51:56.207+09:00  INFO 13316 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-08-26T10:51:56.864+09:00  INFO 13316 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-08-26T10:51:56.875+09:00  INFO 13316 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-08-26T10:51:56.875+09:00  INFO 13316 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-08-26T10:51:56.913+09:00  INFO 13316 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-08-26T10:51:56.914+09:00  INFO 13316 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 707 ms
-2025-08-26T10:51:57.024+09:00  INFO 13316 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2025-08-26T10:51:57.168+09:00  WARN 13316 --- [hello-spring] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2025-08-26T10:51:57.226+09:00  INFO 13316 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-08-26T10:51:57.247+09:00  INFO 13316 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-08-26T10:51:57.253+09:00  INFO 13316 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 1.502 seconds (process running for 2.178)
-2025-08-26T10:51:57.263+09:00  INFO 13316 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-08-26T10:51:57.264+09:00  INFO 13316 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-08-26T10:51:57.266+09:00  INFO 13316 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 13316 (C:\Users\User\Documents\GitHub\hellospring\out\production\classes started by User in C:\Users\User\Documents\GitHub\hellospring)
-2025-08-26T10:51:57.267+09:00  INFO 13316 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
-2025-08-26T10:51:57.384+09:00  INFO 13316 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-08-26T10:51:57.388+09:00  INFO 13316 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-08-26T10:51:57.388+09:00  INFO 13316 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-08-26T10:51:57.399+09:00  INFO 13316 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2025-08-26T10:51:57.399+09:00  INFO 13316 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 131 ms
-2025-08-26T10:51:57.421+09:00  INFO 13316 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2025-08-26T10:51:57.446+09:00  WARN 13316 --- [hello-spring] [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2025-08-26T10:51:57.450+09:00  WARN 13316 --- [hello-spring] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: org.springframework.boot:type=Admin,name=SpringApplication
-2025-08-26T10:51:57.452+09:00  INFO 13316 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-08-26T10:51:57.465+09:00  INFO 13316 --- [hello-spring] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-08-26T10:51:57.482+09:00 ERROR 13316 --- [hello-spring] [restartedMain] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: org.springframework.boot:type=Admin,name=SpringApplication
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.10.jar:6.2.10]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.10.jar:6.2.10]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.10.jar:6.2.10]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.10.jar:6.2.10]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.10.jar:6.2.10]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.10.jar:6.2.10]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.10.jar:6.2.10]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.10.jar:6.2.10]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.10.jar:6.2.10]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.10.jar:6.2.10]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.10.jar:6.2.10]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.10.jar:6.2.10]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.5.jar:3.5.5]
-	at hello.hellospring.HelloSpringApplication.main(HelloSpringApplication.java:15) ~[classes/:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.5.jar:3.5.5]
-Caused by: javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
-	at java.management/com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:436) ~[na:na]
-	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1865) ~[na:na]
-	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:960) ~[na:na]
-	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:895) ~[na:na]
-	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:320) ~[na:na]
-	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:523) ~[na:na]
-	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar.afterPropertiesSet(SpringApplicationAdminMXBeanRegistrar.java:129) ~[spring-boot-3.5.5.jar:3.5.5]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.10.jar:6.2.10]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.10.jar:6.2.10]
-	... 23 common frames omitted
-
-2025-08-26T10:52:05.063+09:00  INFO 13316 --- [hello-spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-26T10:52:05.065+09:00  INFO 13316 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-08-26T10:52:25.856+09:00  INFO 24812 --- [hello-spring] [Test worker] h.h.HelloSpringApplicationTests          : Starting HelloSpringApplicationTests using Java 17.0.12 with PID 24812 (started by User in C:\Users\User\Documents\GitHub\hellospring)
-2025-08-26T10:52:25.858+09:00  INFO 24812 --- [hello-spring] [Test worker] h.h.HelloSpringApplicationTests          : No active profile set, falling back to 1 default profile: "default"
-2025-08-26T10:52:26.811+09:00  INFO 24812 --- [hello-spring] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2025-08-26T10:52:27.128+09:00  INFO 24812 --- [hello-spring] [Test worker] h.h.HelloSpringApplicationTests          : Started HelloSpringApplicationTests in 1.578 seconds (process running for 2.67)
+2025-09-06T11:20:15.367+09:00  INFO 27980 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 27980 (C:\Users\User\Documents\GitHub\hellospring\out\production\classes started by User in C:\Users\User\Documents\GitHub\hellospring)
+2025-09-06T11:20:15.376+09:00  INFO 27980 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-09-06T11:20:15.439+09:00  INFO 27980 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-06T11:20:15.440+09:00  INFO 27980 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-06T11:20:16.282+09:00  INFO 27980 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-06T11:20:16.295+09:00  INFO 27980 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-06T11:20:16.295+09:00  INFO 27980 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-06T11:20:16.335+09:00  INFO 27980 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-06T11:20:16.335+09:00  INFO 27980 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 894 ms
+2025-09-06T11:20:16.451+09:00  INFO 27980 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-09-06T11:20:16.733+09:00  INFO 27980 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-06T11:20:16.766+09:00  INFO 27980 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-06T11:20:16.773+09:00  INFO 27980 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 1.914 seconds (process running for 2.664)
+2025-09-06T11:20:20.096+09:00  INFO 27980 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-06T11:20:20.097+09:00  INFO 27980 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-06T11:20:20.100+09:00  INFO 27980 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
