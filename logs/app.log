@@ -1,16 +1,245 @@
-2025-09-06T11:20:15.367+09:00  INFO 27980 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 27980 (C:\Users\User\Documents\GitHub\hellospring\out\production\classes started by User in C:\Users\User\Documents\GitHub\hellospring)
-2025-09-06T11:20:15.376+09:00  INFO 27980 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
-2025-09-06T11:20:15.439+09:00  INFO 27980 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-09-06T11:20:15.440+09:00  INFO 27980 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-09-06T11:20:16.282+09:00  INFO 27980 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-09-06T11:20:16.295+09:00  INFO 27980 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-09-06T11:20:16.295+09:00  INFO 27980 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-06T11:20:16.335+09:00  INFO 27980 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-09-06T11:20:16.335+09:00  INFO 27980 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 894 ms
-2025-09-06T11:20:16.451+09:00  INFO 27980 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2025-09-06T11:20:16.733+09:00  INFO 27980 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-09-06T11:20:16.766+09:00  INFO 27980 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-09-06T11:20:16.773+09:00  INFO 27980 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 1.914 seconds (process running for 2.664)
-2025-09-06T11:20:20.096+09:00  INFO 27980 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-06T11:20:20.097+09:00  INFO 27980 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-09-06T11:20:20.100+09:00  INFO 27980 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-09-09T11:02:38.332+09:00  INFO 4756 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 4756 (C:\Users\User\Documents\GitHub\hellospring\out\production\classes started by User in C:\Users\User\Documents\GitHub\hellospring)
+2025-09-09T11:02:38.341+09:00  INFO 4756 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-09-09T11:02:38.408+09:00  INFO 4756 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-09T11:02:38.409+09:00  INFO 4756 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-09T11:02:39.458+09:00  INFO 4756 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-09T11:02:39.471+09:00  INFO 4756 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-09T11:02:39.471+09:00  INFO 4756 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-09T11:02:39.509+09:00  INFO 4756 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-09T11:02:39.510+09:00  INFO 4756 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1098 ms
+2025-09-09T11:02:39.624+09:00  INFO 4756 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-09-09T11:02:39.927+09:00  INFO 4756 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-09T11:02:39.956+09:00  INFO 4756 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-09T11:02:39.965+09:00  INFO 4756 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 2.305 seconds (process running for 2.842)
+2025-09-09T11:02:42.754+09:00  INFO 4756 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-09T11:02:42.755+09:00  INFO 4756 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-09T11:02:42.756+09:00  INFO 4756 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-09T11:02:42.799+09:00  WARN 4756 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'name' for method parameter type String is not present]
+2025-09-09T11:02:42.830+09:00  WARN 4756 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'name' for method parameter type String is not present]
+2025-09-09T11:04:59.474+09:00  INFO 4756 --- [hello-spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-09T11:04:59.513+09:00  INFO 4756 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-09T11:05:24.019+09:00  INFO 10660 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 10660 (C:\Users\User\Documents\GitHub\hellospring\out\production\classes started by User in C:\Users\User\Documents\GitHub\hellospring)
+2025-09-09T11:05:24.023+09:00  INFO 10660 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-09-09T11:05:24.091+09:00  INFO 10660 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-09T11:05:24.091+09:00  INFO 10660 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-09T11:05:25.185+09:00  INFO 10660 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-09T11:05:25.196+09:00  INFO 10660 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-09T11:05:25.197+09:00  INFO 10660 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-09T11:05:25.231+09:00  INFO 10660 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-09T11:05:25.232+09:00  INFO 10660 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1140 ms
+2025-09-09T11:05:25.381+09:00  INFO 10660 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-09-09T11:05:25.718+09:00  INFO 10660 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-09T11:05:25.762+09:00  INFO 10660 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-09T11:05:25.772+09:00  INFO 10660 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 2.349 seconds (process running for 2.71)
+2025-09-09T11:05:27.610+09:00  INFO 10660 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-09T11:05:27.610+09:00  INFO 10660 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-09T11:05:27.611+09:00  INFO 10660 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-09T11:06:18.349+09:00  INFO 10660 --- [hello-spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-09T11:06:18.387+09:00  INFO 10660 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-09T11:06:20.230+09:00  INFO 2580 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 2580 (C:\Users\User\Documents\GitHub\hellospring\out\production\classes started by User in C:\Users\User\Documents\GitHub\hellospring)
+2025-09-09T11:06:20.233+09:00  INFO 2580 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-09-09T11:06:20.321+09:00  INFO 2580 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-09T11:06:20.321+09:00  INFO 2580 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-09T11:06:21.365+09:00  INFO 2580 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-09T11:06:21.377+09:00  INFO 2580 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-09T11:06:21.378+09:00  INFO 2580 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-09T11:06:21.431+09:00  INFO 2580 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-09T11:06:21.433+09:00  INFO 2580 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1110 ms
+2025-09-09T11:06:21.658+09:00  INFO 2580 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-09-09T11:06:21.931+09:00  INFO 2580 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-09T11:06:21.973+09:00  INFO 2580 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-09T11:06:21.984+09:00  INFO 2580 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 2.315 seconds (process running for 2.656)
+2025-09-09T11:06:23.203+09:00  INFO 2580 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-09T11:06:23.204+09:00  INFO 2580 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-09T11:06:23.205+09:00  INFO 2580 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-09T11:14:53.524+09:00  INFO 2580 --- [hello-spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-09T11:14:53.599+09:00  INFO 2580 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-09T11:14:56.692+09:00  INFO 6872 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 6872 (C:\Users\User\Documents\GitHub\hellospring\out\production\classes started by User in C:\Users\User\Documents\GitHub\hellospring)
+2025-09-09T11:14:56.695+09:00  INFO 6872 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-09-09T11:14:56.785+09:00  INFO 6872 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-09T11:14:56.785+09:00  INFO 6872 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-09T11:14:57.934+09:00  INFO 6872 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-09T11:14:57.949+09:00  INFO 6872 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-09T11:14:57.950+09:00  INFO 6872 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-09T11:14:57.987+09:00  INFO 6872 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-09T11:14:57.988+09:00  INFO 6872 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1202 ms
+2025-09-09T11:14:58.117+09:00  INFO 6872 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-09-09T11:14:58.391+09:00  INFO 6872 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-09T11:14:58.420+09:00  INFO 6872 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-09T11:14:58.429+09:00  INFO 6872 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 2.35 seconds (process running for 2.744)
+2025-09-09T11:15:07.238+09:00  INFO 6872 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-09T11:15:07.238+09:00  INFO 6872 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-09T11:15:07.239+09:00  INFO 6872 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-09T11:15:47.502+09:00  INFO 6872 --- [hello-spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-09T11:15:47.541+09:00  INFO 6872 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-09T11:15:50.091+09:00  INFO 5272 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 5272 (C:\Users\User\Documents\GitHub\hellospring\out\production\classes started by User in C:\Users\User\Documents\GitHub\hellospring)
+2025-09-09T11:15:50.093+09:00  INFO 5272 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-09-09T11:15:50.154+09:00  INFO 5272 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-09T11:15:50.154+09:00  INFO 5272 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-09T11:15:51.195+09:00  INFO 5272 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-09T11:15:51.207+09:00  INFO 5272 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-09T11:15:51.207+09:00  INFO 5272 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-09T11:15:51.244+09:00  INFO 5272 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-09T11:15:51.244+09:00  INFO 5272 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1089 ms
+2025-09-09T11:15:51.369+09:00  INFO 5272 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-09-09T11:15:51.634+09:00  INFO 5272 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-09T11:15:51.679+09:00  INFO 5272 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-09T11:15:51.689+09:00  INFO 5272 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 2.095 seconds (process running for 2.434)
+2025-09-09T11:15:57.808+09:00  INFO 5272 --- [hello-spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-09T11:15:57.847+09:00  INFO 5272 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-09T11:16:00.358+09:00  INFO 11672 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 11672 (C:\Users\User\Documents\GitHub\hellospring\out\production\classes started by User in C:\Users\User\Documents\GitHub\hellospring)
+2025-09-09T11:16:00.361+09:00  INFO 11672 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-09-09T11:16:00.429+09:00  INFO 11672 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-09T11:16:00.429+09:00  INFO 11672 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-09T11:16:01.520+09:00  INFO 11672 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-09T11:16:01.532+09:00  INFO 11672 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-09T11:16:01.532+09:00  INFO 11672 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-09T11:16:01.567+09:00  INFO 11672 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-09T11:16:01.568+09:00  INFO 11672 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1139 ms
+2025-09-09T11:16:01.711+09:00  INFO 11672 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-09-09T11:16:01.975+09:00  INFO 11672 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-09T11:16:02.011+09:00  INFO 11672 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-09T11:16:02.021+09:00  INFO 11672 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 2.222 seconds (process running for 2.603)
+2025-09-09T11:16:16.288+09:00  INFO 11672 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-09T11:16:16.289+09:00  INFO 11672 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-09T11:16:16.290+09:00  INFO 11672 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-09T11:16:18.699+09:00  INFO 11672 --- [hello-spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-09T11:16:18.737+09:00  INFO 11672 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-09T11:16:21.058+09:00  INFO 20784 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 20784 (C:\Users\User\Documents\GitHub\hellospring\out\production\classes started by User in C:\Users\User\Documents\GitHub\hellospring)
+2025-09-09T11:16:21.061+09:00  INFO 20784 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-09-09T11:16:21.143+09:00  INFO 20784 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-09T11:16:21.144+09:00  INFO 20784 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-09T11:16:22.185+09:00  INFO 20784 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-09T11:16:22.196+09:00  INFO 20784 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-09T11:16:22.197+09:00  INFO 20784 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-09T11:16:22.238+09:00  INFO 20784 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-09T11:16:22.239+09:00  INFO 20784 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1094 ms
+2025-09-09T11:16:22.360+09:00  INFO 20784 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-09-09T11:16:22.606+09:00  INFO 20784 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-09T11:16:22.634+09:00  INFO 20784 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-09T11:16:22.642+09:00  INFO 20784 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 2.161 seconds (process running for 2.486)
+2025-09-09T11:16:25.055+09:00  INFO 20784 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-09T11:16:25.056+09:00  INFO 20784 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-09T11:16:25.057+09:00  INFO 20784 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-09T11:16:44.177+09:00  INFO 20784 --- [hello-spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-09T11:16:44.214+09:00  INFO 20784 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-09T11:16:47.088+09:00  INFO 14704 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 14704 (C:\Users\User\Documents\GitHub\hellospring\out\production\classes started by User in C:\Users\User\Documents\GitHub\hellospring)
+2025-09-09T11:16:47.090+09:00  INFO 14704 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-09-09T11:16:47.168+09:00  INFO 14704 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-09T11:16:47.168+09:00  INFO 14704 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-09T11:16:48.251+09:00  INFO 14704 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-09T11:16:48.262+09:00  INFO 14704 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-09T11:16:48.262+09:00  INFO 14704 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-09T11:16:48.301+09:00  INFO 14704 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-09T11:16:48.302+09:00  INFO 14704 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1132 ms
+2025-09-09T11:16:48.411+09:00  INFO 14704 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-09-09T11:16:48.699+09:00  INFO 14704 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-09T11:16:48.739+09:00  INFO 14704 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-09T11:16:48.749+09:00  INFO 14704 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 2.195 seconds (process running for 2.539)
+2025-09-09T11:16:48.801+09:00  INFO 14704 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-09T11:16:48.802+09:00  INFO 14704 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-09T11:16:48.803+09:00  INFO 14704 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-09T11:39:37.238+09:00  INFO 14704 --- [hello-spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-09T11:39:37.384+09:00  INFO 14704 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-09T11:49:31.655+09:00  INFO 14976 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 14976 (C:\Users\User\Documents\GitHub\hellospring\out\production\classes started by User in C:\Users\User\Documents\GitHub\hellospring)
+2025-09-09T11:49:31.659+09:00  INFO 14976 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-09-09T11:49:31.721+09:00  INFO 14976 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-09T11:49:31.722+09:00  INFO 14976 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-09T11:49:32.736+09:00  INFO 14976 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-09T11:49:32.749+09:00  INFO 14976 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-09T11:49:32.749+09:00  INFO 14976 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-09T11:49:32.783+09:00  INFO 14976 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-09T11:49:32.784+09:00  INFO 14976 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1061 ms
+2025-09-09T11:49:32.905+09:00  INFO 14976 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-09-09T11:49:33.195+09:00  INFO 14976 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-09T11:49:33.228+09:00  INFO 14976 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-09T11:49:33.238+09:00  INFO 14976 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 2.097 seconds (process running for 2.591)
+2025-09-09T11:49:39.236+09:00  INFO 14976 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-09T11:49:39.236+09:00  INFO 14976 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-09T11:49:39.237+09:00  INFO 14976 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-09T11:50:39.098+09:00  INFO 14976 --- [hello-spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-09T11:50:39.139+09:00  INFO 14976 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-09T11:50:42.169+09:00  INFO 24168 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 24168 (C:\Users\User\Documents\GitHub\hellospring\out\production\classes started by User in C:\Users\User\Documents\GitHub\hellospring)
+2025-09-09T11:50:42.174+09:00  INFO 24168 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-09-09T11:50:42.279+09:00  INFO 24168 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-09T11:50:42.279+09:00  INFO 24168 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-09T11:50:43.811+09:00  INFO 24168 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-09T11:50:43.833+09:00  INFO 24168 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-09T11:50:43.834+09:00  INFO 24168 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-09T11:50:43.890+09:00  INFO 24168 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-09T11:50:43.891+09:00  INFO 24168 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1611 ms
+2025-09-09T11:50:44.110+09:00  INFO 24168 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-09-09T11:50:44.548+09:00  INFO 24168 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-09T11:50:44.602+09:00  INFO 24168 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-09T11:50:44.619+09:00  INFO 24168 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 3.123 seconds (process running for 3.578)
+2025-09-09T11:50:44.924+09:00  INFO 24168 --- [hello-spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-09T11:50:44.994+09:00  INFO 24168 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-09T11:50:56.095+09:00  INFO 17012 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 17012 (C:\Users\User\Documents\GitHub\hellospring\out\production\classes started by User in C:\Users\User\Documents\GitHub\hellospring)
+2025-09-09T11:50:56.098+09:00  INFO 17012 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-09-09T11:50:56.177+09:00  INFO 17012 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-09T11:50:56.177+09:00  INFO 17012 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-09T11:50:57.287+09:00  INFO 17012 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-09T11:50:57.297+09:00  INFO 17012 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-09T11:50:57.298+09:00  INFO 17012 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-09T11:50:57.337+09:00  INFO 17012 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-09T11:50:57.337+09:00  INFO 17012 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1159 ms
+2025-09-09T11:50:57.463+09:00  INFO 17012 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-09-09T11:50:57.721+09:00  INFO 17012 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-09T11:50:57.755+09:00  INFO 17012 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-09T11:50:57.764+09:00  INFO 17012 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 2.216 seconds (process running for 2.586)
+2025-09-09T11:51:01.516+09:00  INFO 17012 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-09T11:51:01.517+09:00  INFO 17012 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-09T11:51:01.518+09:00  INFO 17012 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-09T11:51:15.013+09:00  INFO 17012 --- [hello-spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-09T11:51:15.051+09:00  INFO 17012 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-09T11:55:01.788+09:00  INFO 15396 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 15396 (C:\Users\User\Documents\GitHub\hellospring\out\production\classes started by User in C:\Users\User\Documents\GitHub\hellospring)
+2025-09-09T11:55:01.793+09:00  INFO 15396 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-09-09T11:55:01.847+09:00  INFO 15396 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-09T11:55:01.847+09:00  INFO 15396 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-09T11:55:03.035+09:00  INFO 15396 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-09T11:55:03.052+09:00  INFO 15396 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-09T11:55:03.053+09:00  INFO 15396 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-09T11:55:03.123+09:00  INFO 15396 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-09T11:55:03.124+09:00  INFO 15396 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1276 ms
+2025-09-09T11:55:03.304+09:00  INFO 15396 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-09-09T11:55:03.680+09:00  INFO 15396 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-09T11:55:03.717+09:00  INFO 15396 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-09T11:55:03.727+09:00  INFO 15396 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 2.695 seconds (process running for 3.218)
+2025-09-09T11:55:05.738+09:00  INFO 15396 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-09T11:55:05.739+09:00  INFO 15396 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-09T11:55:05.740+09:00  INFO 15396 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-09T11:55:55.662+09:00  INFO 15396 --- [hello-spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-09T11:55:55.700+09:00  INFO 15396 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-09T11:55:58.257+09:00  INFO 13816 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 13816 (C:\Users\User\Documents\GitHub\hellospring\out\production\classes started by User in C:\Users\User\Documents\GitHub\hellospring)
+2025-09-09T11:55:58.261+09:00  INFO 13816 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-09-09T11:55:58.353+09:00  INFO 13816 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-09T11:55:58.353+09:00  INFO 13816 --- [hello-spring] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-09T11:55:59.495+09:00  INFO 13816 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-09T11:55:59.509+09:00  INFO 13816 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-09T11:55:59.509+09:00  INFO 13816 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-09T11:55:59.543+09:00  INFO 13816 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-09T11:55:59.544+09:00  INFO 13816 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1190 ms
+2025-09-09T11:55:59.715+09:00  INFO 13816 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-09-09T11:56:00.008+09:00  INFO 13816 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-09T11:56:00.053+09:00  INFO 13816 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-09T11:56:00.061+09:00  INFO 13816 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 2.418 seconds (process running for 2.796)
+2025-09-09T11:56:15.406+09:00  INFO 13816 --- [hello-spring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-09-09T11:56:15.411+09:00  INFO 13816 --- [hello-spring] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-09T11:56:15.475+09:00  INFO 13816 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-09T11:56:15.526+09:00  INFO 13816 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 13816 (C:\Users\User\Documents\GitHub\hellospring\out\production\classes started by User in C:\Users\User\Documents\GitHub\hellospring)
+2025-09-09T11:56:15.526+09:00  INFO 13816 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-09-09T11:56:15.713+09:00  INFO 13816 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-09T11:56:15.713+09:00  INFO 13816 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-09T11:56:15.714+09:00  INFO 13816 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-09T11:56:15.730+09:00  INFO 13816 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-09T11:56:15.731+09:00  INFO 13816 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 203 ms
+2025-09-09T11:56:15.761+09:00  INFO 13816 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-09-09T11:56:15.807+09:00  INFO 13816 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-09T11:56:15.813+09:00  INFO 13816 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-09T11:56:15.818+09:00  INFO 13816 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 0.315 seconds (process running for 18.553)
+2025-09-09T11:56:15.821+09:00  INFO 13816 --- [hello-spring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-09T11:57:20.039+09:00  INFO 13816 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-09T11:57:20.040+09:00  INFO 13816 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-09T11:57:20.041+09:00  INFO 13816 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-09T13:40:16.064+09:00  INFO 13816 --- [hello-spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-09T13:40:16.212+09:00  INFO 13816 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
