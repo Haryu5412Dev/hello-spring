@@ -19,23 +19,27 @@ class MemoryMemberRepositoryTest {
 
     @Test
     public void save() {
-        Member member1 = new Member();
-        member1.setName("Spring1");
-        repository.Save(member1);
+//        Member member1 = new Member();
+//        member1.setName("Spring1");
+//        repository.Save(member1);
+//
+//        Member member2 = new Member();
+//        member2.setName("Spring2");
+//        repository.Save(member2);
 
-        Member member2 = new Member();
-        member2.setName("Spring2");
-        repository.Save(member2);
+//        List<Member> members = repository.findAll();
+//        assertThat(members.size()).isEqualTo(2);
+//        for (int i = 0; i < members.size(); i++) {
+//            System.out.println("member: " + members.get(i).getName());
+//        }
 
-        List<Member> members = repository.findAll();
-        assertThat(members.size()).isEqualTo(2);
-        for (int i = 0; i < members.size(); i++) {
-            System.out.println("member: " + members.get(i).getName());
-        }
+        Member member = new Member();
+        member.setName("Spring");
+        repository.Save(member);
 
-        //Member result = repository.findById(member.getId()).get();
-        //System.out.println("result = " + (member == result));
-        //Assertions.assertEquals(member, result);
-        //assertThat(member).isEqualTo(result);
+        Member result = repository.findById(member.getId()).get();
+        System.out.println("result = " + (member == result));
+        Assertions.assertEquals(member, result);
+        assertThat(member).isEqualTo(result);
     }
 }
