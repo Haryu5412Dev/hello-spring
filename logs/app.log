@@ -2281,3 +2281,254 @@ Caused by: java.lang.ClassNotFoundException: MemberForm
 2025-10-27T15:34:45.342+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-10-27T15:34:45.344+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 0.252 seconds (process running for 193.882)
 2025-10-27T15:34:45.345+09:00  INFO 4244 --- [hello-spring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T15:44:19.317+09:00  INFO 4244 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T15:44:19.318+09:00  INFO 4244 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T15:44:19.320+09:00  INFO 4244 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-10-27T15:44:25.869+09:00  WARN 4244 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-10-27T15:54:15.686+09:00  INFO 4244 --- [hello-spring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-27T15:54:15.688+09:00  INFO 4244 --- [hello-spring] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T15:54:16.105+09:00  INFO 4244 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T15:54:16.169+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 4244 (C:\Users\Haryu5412\IdeaProjects\hello-spring\bin\main started by Haryu5412 in C:\Users\Haryu5412\IdeaProjects\hello-spring)
+2025-10-27T15:54:16.170+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:54:16.347+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T15:54:16.349+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:54:16.349+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-27T15:54:16.367+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:54:16.368+09:00  INFO 4244 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 197 ms
+2025-10-27T15:54:16.395+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T15:54:16.488+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T15:54:16.494+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T15:54:16.497+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 0.346 seconds (process running for 1365.035)
+2025-10-27T15:54:16.498+09:00  INFO 4244 --- [hello-spring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T15:54:17.922+09:00  INFO 4244 --- [hello-spring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-27T15:54:17.924+09:00  INFO 4244 --- [hello-spring] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T15:54:18.303+09:00  INFO 4244 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T15:54:18.360+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 4244 (C:\Users\Haryu5412\IdeaProjects\hello-spring\bin\main started by Haryu5412 in C:\Users\Haryu5412\IdeaProjects\hello-spring)
+2025-10-27T15:54:18.361+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:54:18.505+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T15:54:18.506+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:54:18.506+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-27T15:54:18.520+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:54:18.520+09:00  INFO 4244 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 157 ms
+2025-10-27T15:54:18.544+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T15:54:18.574+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T15:54:18.579+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T15:54:18.581+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 0.237 seconds (process running for 1367.119)
+2025-10-27T15:54:18.582+09:00  INFO 4244 --- [hello-spring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T15:54:44.255+09:00  INFO 4244 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T15:54:44.256+09:00  INFO 4244 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T15:54:44.257+09:00  INFO 4244 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T15:56:53.635+09:00  INFO 4244 --- [hello-spring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-27T15:56:53.636+09:00  INFO 4244 --- [hello-spring] [Thread-23] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T15:56:54.096+09:00  INFO 4244 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T15:56:54.142+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 4244 (C:\Users\Haryu5412\IdeaProjects\hello-spring\bin\main started by Haryu5412 in C:\Users\Haryu5412\IdeaProjects\hello-spring)
+2025-10-27T15:56:54.142+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:56:54.303+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T15:56:54.304+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:56:54.304+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-27T15:56:54.317+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:56:54.318+09:00  INFO 4244 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 174 ms
+2025-10-27T15:56:54.330+09:00  WARN 4244 --- [hello-spring] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberController' defined in file [C:\Users\Haryu5412\IdeaProjects\hello-spring\bin\main\hello\hellospring\controller\MemberController.class]: Failed to instantiate [hello.hellospring.controller.MemberController]: Constructor threw exception
+2025-10-27T15:56:54.331+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-27T15:56:54.337+09:00  INFO 4244 --- [hello-spring] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-27T15:56:54.358+09:00 ERROR 4244 --- [hello-spring] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberController' defined in file [C:\Users\Haryu5412\IdeaProjects\hello-spring\bin\main\hello\hellospring\controller\MemberController.class]: Failed to instantiate [hello.hellospring.controller.MemberController]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:321) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:309) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.5.jar:3.5.5]
+	at hello.hellospring.HelloSpringApplication.main(HelloSpringApplication.java:9) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.5.jar:3.5.5]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [hello.hellospring.controller.MemberController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:223) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318) ~[spring-beans-6.2.10.jar:6.2.10]
+	... 26 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "@", delete this token
+
+	at hello.hellospring.controller.MemberController.<init>(MemberController.java:15) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:210) ~[spring-beans-6.2.10.jar:6.2.10]
+	... 28 common frames omitted
+
+2025-10-27T15:56:55.830+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 4244 (C:\Users\Haryu5412\IdeaProjects\hello-spring\bin\main started by Haryu5412 in C:\Users\Haryu5412\IdeaProjects\hello-spring)
+2025-10-27T15:56:55.831+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:56:55.973+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T15:56:55.974+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:56:55.975+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-27T15:56:55.988+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:56:55.988+09:00  INFO 4244 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 156 ms
+2025-10-27T15:56:56.008+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T15:56:56.035+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T15:56:56.040+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T15:56:56.043+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 0.23 seconds (process running for 1524.581)
+2025-10-27T15:56:56.044+09:00  INFO 4244 --- [hello-spring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T15:56:57.472+09:00  INFO 4244 --- [hello-spring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-27T15:56:57.473+09:00  INFO 4244 --- [hello-spring] [Thread-27] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T15:56:57.899+09:00  INFO 4244 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T15:56:57.957+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 4244 (C:\Users\Haryu5412\IdeaProjects\hello-spring\bin\main started by Haryu5412 in C:\Users\Haryu5412\IdeaProjects\hello-spring)
+2025-10-27T15:56:57.958+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:56:58.139+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T15:56:58.141+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:56:58.141+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-27T15:56:58.153+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:56:58.153+09:00  INFO 4244 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 194 ms
+2025-10-27T15:56:58.171+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T15:56:58.201+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T15:56:58.208+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T15:56:58.211+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 0.274 seconds (process running for 1526.749)
+2025-10-27T15:56:58.212+09:00  INFO 4244 --- [hello-spring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T15:57:00.045+09:00  INFO 4244 --- [hello-spring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-27T15:57:00.047+09:00  INFO 4244 --- [hello-spring] [Thread-34] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T15:57:00.472+09:00  INFO 4244 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T15:57:00.531+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 4244 (C:\Users\Haryu5412\IdeaProjects\hello-spring\bin\main started by Haryu5412 in C:\Users\Haryu5412\IdeaProjects\hello-spring)
+2025-10-27T15:57:00.533+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:57:00.681+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T15:57:00.682+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:57:00.682+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-27T15:57:00.697+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:57:00.697+09:00  INFO 4244 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 163 ms
+2025-10-27T15:57:00.710+09:00  WARN 4244 --- [hello-spring] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberController' defined in file [C:\Users\Haryu5412\IdeaProjects\hello-spring\bin\main\hello\hellospring\controller\MemberController.class]: Failed to instantiate [hello.hellospring.controller.MemberController]: Constructor threw exception
+2025-10-27T15:57:00.711+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-27T15:57:00.715+09:00  INFO 4244 --- [hello-spring] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-27T15:57:00.719+09:00 ERROR 4244 --- [hello-spring] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberController' defined in file [C:\Users\Haryu5412\IdeaProjects\hello-spring\bin\main\hello\hellospring\controller\MemberController.class]: Failed to instantiate [hello.hellospring.controller.MemberController]: Constructor threw exception
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:321) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:309) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.5.jar:3.5.5]
+	at hello.hellospring.HelloSpringApplication.main(HelloSpringApplication.java:9) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.5.jar:3.5.5]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [hello.hellospring.controller.MemberController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:223) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:318) ~[spring-beans-6.2.10.jar:6.2.10]
+	... 26 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at hello.hellospring.controller.MemberController.<init>(MemberController.java:15) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:210) ~[spring-beans-6.2.10.jar:6.2.10]
+	... 28 common frames omitted
+
+2025-10-27T15:57:02.171+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 4244 (C:\Users\Haryu5412\IdeaProjects\hello-spring\bin\main started by Haryu5412 in C:\Users\Haryu5412\IdeaProjects\hello-spring)
+2025-10-27T15:57:02.171+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:57:02.296+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T15:57:02.297+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:57:02.297+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-27T15:57:02.327+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:57:02.329+09:00  INFO 4244 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 156 ms
+2025-10-27T15:57:02.349+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T15:57:02.383+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T15:57:02.390+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T15:57:02.393+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 0.237 seconds (process running for 1530.93)
+2025-10-27T15:57:02.394+09:00  INFO 4244 --- [hello-spring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T15:57:04.818+09:00  INFO 4244 --- [hello-spring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-27T15:57:04.820+09:00  INFO 4244 --- [hello-spring] [Thread-38] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T15:57:05.194+09:00  INFO 4244 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T15:57:05.247+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 4244 (C:\Users\Haryu5412\IdeaProjects\hello-spring\bin\main started by Haryu5412 in C:\Users\Haryu5412\IdeaProjects\hello-spring)
+2025-10-27T15:57:05.247+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:57:05.345+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T15:57:05.346+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:57:05.346+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-27T15:57:05.356+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:57:05.357+09:00  INFO 4244 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 109 ms
+2025-10-27T15:57:05.375+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T15:57:05.401+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T15:57:05.407+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T15:57:05.409+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 0.174 seconds (process running for 1533.947)
+2025-10-27T15:57:05.410+09:00  INFO 4244 --- [hello-spring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T15:57:39.389+09:00  INFO 4244 --- [hello-spring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-27T15:57:39.390+09:00  INFO 4244 --- [hello-spring] [Thread-45] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T15:57:39.841+09:00  INFO 4244 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T15:57:39.905+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 4244 (C:\Users\Haryu5412\IdeaProjects\hello-spring\bin\main started by Haryu5412 in C:\Users\Haryu5412\IdeaProjects\hello-spring)
+2025-10-27T15:57:39.905+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:57:40.003+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T15:57:40.005+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:57:40.006+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-27T15:57:40.016+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:57:40.016+09:00  INFO 4244 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 109 ms
+2025-10-27T15:57:40.036+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T15:57:40.069+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T15:57:40.074+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T15:57:40.076+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 0.185 seconds (process running for 1568.614)
+2025-10-27T15:57:40.078+09:00  INFO 4244 --- [hello-spring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T15:57:41.508+09:00  INFO 4244 --- [hello-spring] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-27T15:57:41.508+09:00  INFO 4244 --- [hello-spring] [Thread-49] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T15:57:41.912+09:00  INFO 4244 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T15:57:41.978+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Starting HelloSpringApplication using Java 17.0.12 with PID 4244 (C:\Users\Haryu5412\IdeaProjects\hello-spring\bin\main started by Haryu5412 in C:\Users\Haryu5412\IdeaProjects\hello-spring)
+2025-10-27T15:57:41.978+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:57:42.078+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T15:57:42.079+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:57:42.079+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-27T15:57:42.097+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:57:42.098+09:00  INFO 4244 --- [hello-spring] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 119 ms
+2025-10-27T15:57:42.117+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T15:57:42.146+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T15:57:42.149+09:00  INFO 4244 --- [hello-spring] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T15:57:42.151+09:00  INFO 4244 --- [hello-spring] [restartedMain] h.hellospring.HelloSpringApplication     : Started HelloSpringApplication in 0.185 seconds (process running for 1570.689)
+2025-10-27T15:57:42.153+09:00  INFO 4244 --- [hello-spring] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T15:57:53.965+09:00  INFO 4244 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T15:57:53.965+09:00  INFO 4244 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T15:57:53.965+09:00  INFO 4244 --- [hello-spring] [http-nio-0.0.0.0-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-27T15:59:42.275+09:00  INFO 4244 --- [hello-spring] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T15:59:42.599+09:00  INFO 4244 --- [hello-spring] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
