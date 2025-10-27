@@ -1,10 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org" lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Home</title>
+    <style>
+        .container { max-width: 640px; margin: 3rem auto; text-align: center; font-family: Arial, sans-serif; }
+        h1 { margin-bottom: 1.5rem; }
+        .btn { display: inline-block; padding: 0.6rem 1.2rem; margin: 0.4rem; border-radius: 6px; text-decoration: none; color: #fff; background: #007bff; }
+        .btn.secondary { background: #6c757d; }
+        .desc { color: #444; margin-bottom: 1.5rem; }
+    </style>
 </head>
 <body>
-$END$
+    <div class="container">
+        <h1>Hello Spring</h1>
+        <p class="desc">회원 관리를 위한 예제 페이지</p>
+
+        <a href="/members/new" class="btn">회원가입</a>
+        <a href="/members" class="btn secondary">회원목록</a>
+    </div>
 </body>
 </html>

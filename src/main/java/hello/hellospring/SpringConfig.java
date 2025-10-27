@@ -23,5 +23,5 @@ public class SpringConfig {
 //    @Bean
 //    public MemberRepository memberRepository(){
 //        return new dbMemberRepository();
-//    }
+//    }c
 }
