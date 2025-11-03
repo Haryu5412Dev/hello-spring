@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원목록</title>
+    <!-- 모델에 담긴 members(List<Member>)를 출력합니다. -->
+    
+</head>
+<body>
+    <h1>회원 목록</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>이름</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="m : ${members}">
+                <td th:text="${m.id}">1</td>
+                <td th:text="${m.name}">홍길동</td>
+            </tr>
+            <tr th:if="${#lists.isEmpty(members)}">
+                <td colspan="2">등록된 회원이 없습니다.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>
+        <a href="/">홈으로</a>
+        |
+        <a href="/members/new">회원가입</a>
+    </p>
+
+</body>
+</html>
