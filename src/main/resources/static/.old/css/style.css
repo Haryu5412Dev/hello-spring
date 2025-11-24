@@ -1,0 +1,141 @@
+:root{
+    --bg:#f6f8fb;
+    --card:#ffffff;
+    --primary:#2b6ef6;
+    --muted:#6b7280;
+    --accent:#10b981;
+}
+*{box-sizing:border-box}
+body{
+    margin:0; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    background:var(--bg); color:#111827; -webkit-font-smoothing:antialiased;
+}
+.site-header{background:linear-gradient(90deg,#ffffff 0%, rgba(43,110,246,0.06) 100%);padding:18px 0;box-shadow:0 1px 0 rgba(15,23,42,0.04)}
+.container{max-width:980px;margin:32px auto;padding:0 20px}
+.header-inner{display:flex;align-items:center;justify-content:space-between}
+.brand{font-weight:700;color:var(--primary);font-size:1.2rem;text-decoration:none}
+.nav a{color:var(--muted);text-decoration:none;margin-left:12px}
+.card{background:var(--card);border-radius:12px;padding:28px;box-shadow:0 6px 20px rgba(2,6,23,0.06)}
+.hero{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.hero h1{margin:0;font-size:1.8rem}
+.muted{color:var(--muted)}
+.btn{display:inline-block;padding:10px 16px;border-radius:8px;background:var(--primary);color:white;text-decoration:none;border:none;cursor:pointer}
+.btn.secondary{background:#475569}
+form label{display:block;margin:8px 0 6px;font-weight:600}
+input[type=text],input[type=password],input[type=tel]{width:100%;padding:10px;border-radius:8px;border:1px solid #e6e9ef;background:#fbfdff}
+.form-row{margin-bottom:12px}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{padding:10px;border-bottom:1px solid #eef2f7;text-align:left}
+.empty{padding:12px;color:var(--muted)}
+.footer{margin-top:18px;color:var(--muted);font-size:0.95rem}
+.center{text-align:center}
+
+@media (max-width:640px){
+    .hero{flex-direction:column;align-items:flex-start}
+}
+@font-face {
+    font-family: 'NeoDunggeunmo';
+    src: url('/font/neodgm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fafafa;
+    color: #111;
+    font-family: 'NeoDunggeunmo', sans-serif;
+}
+
+.wrap {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.hello {
+    font-size: 60px;
+    line-height: 1.3;
+    margin: 0 0 24px;
+}
+
+.sub {
+    margin: 6px 0 14px;
+    color: #444;
+    font-size: 18px;
+}
+
+.avatar {
+    width: 260px;
+    height: 260px;
+    margin: 0 auto 28px;
+    border-radius:50%;
+    overflow:hidden;
+    background:#eee center/cover no-repeat url("../img/pfp.png");
+    box-shadow:0 10px 24px rgba(0,0,0,.08);
+    transition: transform 0.3s ease;
+}
+
+.social {
+    display:flex;
+    gap:16px;
+    justify-content:center;
+    margin-top:20px;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    display: inline-grid;
+    place-items: center;
+    border-radius: 10px;
+    background: #000;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.icon svg {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+}
+
+footer {
+    margin-top:22px;
+    color:#bbb;
+    font-size:20px;
+}
+
+.avatar:hover,
+.icon:hover {
+    transform: translateY(-6px);
+}
+
+.goals {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.goals h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #222;
+}
+
+.goals ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #444;
+}
+
+.goals li::before {
+    content: "• ";
+    color: #111;
+    font-weight: bold;
+}

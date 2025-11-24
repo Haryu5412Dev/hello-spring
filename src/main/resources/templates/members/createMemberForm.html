@@ -6,13 +6,32 @@
     <title>회원가입</title>
 </head>
 <body>
-    <form action="/members/new" method="post">
-        <label for="name">이름:</label>
-        <input type="text" id="name" name="name" placeholder="이름을 입력하세요" required >
-        <button type="submit">등록</button>
-    </form>
-        <p>
-            <a href="/">홈으로</a>
-        </p>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+
+    <section class="card" style="max-width:640px;margin:22px auto">
+        <h1>회원가입</h1>
+        <form action="/members/new" method="post">
+            <div class="form-row">
+                <label for="name">이름</label>
+                <input type="text" id="name" name="name" placeholder="이름을 입력하세요" required>
+            </div>
+            <div class="form-row">
+                <label for="loginId">사용자 ID</label>
+                <input type="text" id="loginId" name="loginId" placeholder="사용자 ID" required>
+            </div>
+            <div class="form-row">
+                <label for="password">비밀번호</label>
+                <input type="password" id="password" name="password" placeholder="비밀번호" required>
+            </div>
+            <div class="form-row">
+                <label for="phoneNumber">전화번호</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="010-1234-5678" required>
+            </div>
+            <div class="center" style="margin-top:10px">
+                <button class="btn" type="submit">등록</button>
+            </div>
+        </form>
+        <p class="center" style="margin-top:12px"><a href="/">홈으로</a></p>
+    </section>
 </body>
 </html>

@@ -4,35 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>회원목록</title>
-    <!-- 모델에 담긴 members(List<Member>)를 출력합니다. -->
-    
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
 </head>
 <body>
-    <h1>회원 목록</h1>
+        <header class="site-header">
+            <div class="container header-inner">
+               <a class="brand" href="/">Spring Boot</a>
+                <nav class="nav">
+                    <a href="/login">로그인</a>
+                    <a href="/members">회원목록</a>
+                    <a href="/members/new">회원가입</a>
+                </nav>
+            </div>
+        </header>
 
-    <table>
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>이름</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr th:each="m : ${members}">
-                <td th:text="${m.id}">1</td>
-                <td th:text="${m.name}">홍길동</td>
-            </tr>
-            <tr th:if="${#lists.isEmpty(members)}">
-                <td colspan="2">등록된 회원이 없습니다.</td>
-            </tr>
-        </tbody>
-    </table>
+    <main class="container">
+        <h1>회원 목록</h1>
+        <div class="card">
+            <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>이름</th>
+                    <th>사용자ID</th>
+                    <th>전화번호</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="m : ${members}">
+                    <td th:text="${m.id}">1</td>
+                    <td th:text="${m.name}">홍길동</td>
+                    <td th:text="${m.loginId}">login01</td>
+                    <td th:text="${m.phoneNumber}">010-0000-0000</td>
+                </tr>
+                <tr th:if="${#lists.isEmpty(members)}">
+                    <td class="empty" colspan="4">등록된 회원이 없습니다.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-    <p>
-        <a href="/">홈으로</a>
-        |
-        <a href="/members/new">회원가입</a>
-    </p>
+        <p class="footer" style="margin-top:12px">
+            <a href="/">홈으로</a> | <a href="/members/new">회원가입</a>
+        </p>
+    </main>
 
 </body>
 </html>

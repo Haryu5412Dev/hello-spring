@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>아이디 찾기</title>
+</head>
+<body>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+    <section class="card" style="max-width:520px;margin:22px auto">
+        <h1>아이디 찾기</h1>
+        <form action="/find-login-id" method="post">
+            <div class="form-row">
+                <label for="name">이름</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-row">
+                <label for="phoneNumber">전화번호</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="010-1234-5678" required>
+            </div>
+            <div class="center"><button class="btn" type="submit">아이디 찾기</button></div>
+        </form>
+        <p class="center" style="margin-top:12px"><a href="/">홈으로</a></p>
+    </section>
+</body>
+</html>

@@ -4,21 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Home</title>
-    <style>
-        .container { max-width: 640px; margin: 3rem auto; text-align: center; font-family: Arial, sans-serif; }
-        h1 { margin-bottom: 1.5rem; }
-        .btn { display: inline-block; padding: 0.6rem 1.2rem; margin: 0.4rem; border-radius: 6px; text-decoration: none; color: #fff; background: #007bff; }
-        .btn.secondary { background: #6c757d; }
-        .desc { color: #444; margin-bottom: 1.5rem; }
-    </style>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
 </head>
 <body>
-    <div class="container">
-        <h1>Hello Spring</h1>
-        <p class="desc">회원 관리를 위한 예제 페이지</p>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="/">Spring Boot</a>
+            <nav class="nav">
+                <a href="/login">로그인</a>
+                <a href="/members">회원목록</a>
+                <a href="/members/new">회원가입</a>
+            </nav>
+        </div>
+    </header>
 
-        <a href="/members/new" class="btn">회원가입</a>
-        <a href="/members" class="btn secondary">회원목록</a>
-    </div>
+    <main class="container">
+        <section class="card hero">
+            <div>
+                <h1>회원 관리</h1>
+                <p class="muted">헤더를 통해서 로그인, 회원목록, 회원가입 페이지로 이동할 수 있습니다.</p>
+                <div style="margin-top:14px">
+                    <a href="/members/new" class="btn">회원가입</a>
+                    <a href="/members" class="btn secondary">회원목록</a>
+                </div>
+            </div>
+            <img src="/img/hero-illustration.svg" alt="illustration" style="width:28%" onerror="this.style.display='none'">
+        </section>
+    </main>
 </body>
 </html>
