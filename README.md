@@ -70,63 +70,26 @@
 
 ## 6) 핵심 코드 구조
 
-### Member 도메인
+본 프로젝트에서 핵심이 되는 부분은 **회원 정보를 파일에 영구 저장**하도록 구현하였다.
 
-- `loginId`, `password`, `phoneNumber` 필드 추가
+기존 메모리 기반 저장 방식은 프로그램 종료 시 데이터가 사라지는 한계가 있었기 때문에, 실제 사용자 관리 흐름에 가까운 형태로 저장 구조를 확장하였다.
 
-### Repository
+### MemoryMemberRepository – 파일 기반 저장 구조
 
-- `findByLoginId(String loginId)`
-- `findByNameAndPhone(String name, String phoneNumber)`
-- **`update(Member member)` 메서드 추가 (비밀번호 변경 저장용)**
+`MemoryMemberRepository`는 회원 데이터를 Map에 저장한 뒤, 변경이 발생할 때마다 전체 회원 정보를 `members.txt` 파일로 기록하도록 구성하였다. 이를 통해 프로그램을 재실행하더라도 기존 회원 정보가 유지되도록 하였다.
 
-### Repository 구현 (MemoryMemberRepository)
+구현 내용은 다음과 같다.
 
-- 회원 정보 업데이트 메서드 구현
-- 업데이트 후 `members.txt` 파일에 저장하여 영구 반영
+- `save(Member member)`
+    신규 회원 저장 후 전체 데이터를 파일로 기록.
 
-### Service
+- `update(Member member)`
+    비밀번호 변경 등 수정된 내용을 반영한 뒤 파일에 다시 저장.
 
-- 회원가입 시 중복 `loginId` 검사
-- 로그인 인증(`authenticate`)
-- 아이디 찾기
-- 비밀번호 재설정(임시 비밀번호 발급)
-- **updatePassword(loginId, phoneNumber, newPassword)**
-    - 전화번호 검증 후 새로운 비밀번호로 갱신
-    - repository.update() 호출로 파일에 저장
+- `storeToFile()`
+    현재 저장소(Map)의 모든 회원 정보를 순서대로 파일에 덮어쓰는 공통 저장 로직.
 
-### Controller
-
-- 회원가입, 로그인, 아이디 찾기, 비밀번호 재설정 라우트 관리
-- **POST /reset-password**에서 새 비밀번호를 받아 `updatePassword()` 호출
-- 라우트 충돌 제거(`/members/new`)
-
-## 최근 UI 및 기능 업데이트
-
-- **공통 스타일 적용:**
-    `static/css/style.css` 추가 — 카드형 레이아웃, 버튼, 입력 폼 통일
-
-- **글꼴 적용:**
-    `static/font/neodgm.ttf`을 기본 폰트로 등록
-
-- **루트 경로 충돌 해결:**
-    `static/index.html` 삭제 → `home.html` 정상 노출
-
-- **템플릿 일관성 강화:**
-    모든 템플릿에 공통 레이아웃 적용
-
-- **회원 목록 확장:**
-    `loginId`, `phoneNumber` 컬럼 추가
-
-- **로그인 기능 구현:**
-    `POST /login`, `loginSuccess.html` 연동
-
-- **비밀번호 직접 변경 UI 추가:**
-    `resetPasswordForm.html`에 새 비밀번호 입력 필드 추가
-    `resetPasswordResult.html`에 결과 메시지 표시
-
-- **라우팅 안정화:**
-    중복 매핑 제거
+이 구조를 통해 기본 예제보다 한 단계 발전된 형태의 사용자 관리 흐름을 구현하였다.
 
 ---
 
