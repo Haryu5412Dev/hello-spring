@@ -70,26 +70,69 @@
 
 ## 6) 핵심 코드 구조
 
-본 프로젝트에서 핵심이 되는 부분은 **회원 정보를 파일에 영구 저장**하도록 구현하였다.
+본 프로젝트에서는 회원 정보가 프로그램 종료 후에도 유지되도록 하기 위해,
 
-기존 메모리 기반 저장 방식은 프로그램 종료 시 데이터가 사라지는 한계가 있었기 때문에, 실제 사용자 관리 흐름에 가까운 형태로 저장 구조를 확장하였다.
+`MemoryMemberRepository`에 파일 기반 저장 기능을 직접 구현하였다.
 
-### MemoryMemberRepository – 파일 기반 저장 구조
+회원 정보가 추가되거나 수정될 때마다 전체 데이터를 `members.txt`에 즉시 반영하는 방식이다.
 
-`MemoryMemberRepository`는 회원 데이터를 Map에 저장한 뒤, 변경이 발생할 때마다 전체 회원 정보를 `members.txt` 파일로 기록하도록 구성하였다. 이를 통해 프로그램을 재실행하더라도 기존 회원 정보가 유지되도록 하였다.
+---
 
-구현 내용은 다음과 같다.
+### `save(Member member)`
 
-- `save(Member member)`
-    신규 회원 저장 후 전체 데이터를 파일로 기록.
+```java
+@Override
+public Member save(Member member) {
+    member.setId(++sequence);
+    store.put(member.getId(), member);
+    storeToFile();
+    return member;
+}
+```
 
-- `update(Member member)`
-    비밀번호 변경 등 수정된 내용을 반영한 뒤 파일에 다시 저장.
+신규 회원을 저장한 후, 현재 저장소(Map)에 있는 모든 회원 정보를 파일로 다시 기록한다.
 
-- `storeToFile()`
-    현재 저장소(Map)의 모든 회원 정보를 순서대로 파일에 덮어쓰는 공통 저장 로직.
+이 과정을 통해 새로운 가입이 발생할 때마다 파일 내용이 최신 상태로 유지되도록 하였다.
 
-이 구조를 통해 기본 예제보다 한 단계 발전된 형태의 사용자 관리 흐름을 구현하였다.
+---
+
+### `update(Member member)`
+
+```java
+@Override
+public void update(Member member) {
+    store.put(member.getId(), member);
+    storeToFile();
+}
+```
+
+비밀번호 변경과 같은 회원 정보 수정 시 사용된다.
+
+수정된 Member 객체를 저장소에 반영하고, 수정된 전체 데이터를 파일에 다시 저장하도록 구성하였다.
+
+---
+
+### `storeToFile()`
+
+```java
+private void storeToFile() {
+    try (BufferedWriter writer = new BufferedWriter(new FileWriter("members.txt"))) {
+        for (Member member : store.values()) {
+            writer.write(member.getId() + "," +
+                         member.getLoginId() + "," +
+                         member.getName() + "," +
+                         member.getPhoneNumber() + "," +
+                         member.getPassword());
+            writer.newLine();
+        }
+    } catch (IOException e) {
+        throw new RuntimeException("파일 저장 중 오류 발생", e);
+    }
+}
+```
+
+현재 저장된 모든 회원 정보를 한 줄씩 파일에 기록하는 기능을 담당한다.
+파일을 새로 생성하는 방식으로 작성하여, 저장·수정 작업 이후에도 데이터가 항상 일관되게 유지되도록 하였다.
 
 ---
 
