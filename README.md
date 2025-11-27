@@ -2,7 +2,8 @@
 
 ## 1) 프로젝트 개요
 
-기존 수업시간에 만들던 예제에서 단순히 name만으로 회원을 등록하던 구조에서 요구 사항인 loginId, password, phoneNumber 기반의 회원 관리 기능을 추가했으며, 사용자가 스스로 비밀번호를 변경할 수 있는 기능까지 포함하도록 개선했습니다.
+기존 수업시간에 만들던 예제에서 단순히 name만으로 회원을 등록하던 구조에서 요구 사항인 loginId, password, phoneNumber 기반의 회원 관리 기능을 추가했으며, 
+사용자가 스스로 비밀번호를 변경할 수 있는 기능까지 포함하도록 개선했습니다.
 
 ## 2) 구현 기능
 
@@ -56,13 +57,13 @@
 - **로그인:** `templates/login.html`
     - 로그인 성공 시 `loginSuccess.html`
 - **회원가입:**
-    - `GET /members/new` → 회원가입 폼
+    - `/members/new` -> 회원가입 폼
     - 중복 `loginId` 시 `joinError.html`로 안내
 - **아이디 찾기:**
-    - `GET /find-login-id`, `POST /find-login-id`
+    - `/find-login-id`
 - **비밀번호 재설정:**
-    - `GET /reset-password`, `POST /reset-password`
-    - 임시 비밀번호 발급 또는 **새 비밀번호 직접 설정 흐름** 지원
+    - `/reset-password`, `/reset-password`
+    - **새 비밀번호 직접 설정** 지원
 
 ## 6) 핵심 코드 구조
 
@@ -148,20 +149,16 @@ private void storeToFile() {
 - **해결:** 랜덤 문자열 기반 임시 비밀번호 생성 방식을 참고해 구현했다.
     
     이후 검증 성공 시 `Member.password`를 업데이트하도록 구성했다.
-    
 
-### 4) 비밀번호 직접 변경 기능 구현(직접 설계·구현)
+### 4) 비밀번호 직접 변경 기능 구현
 
-- **문제:** 초기 예제는 임시 비밀번호 발급까지는 가능하지만, “사용자가 원하는 비밀번호 입력 → 영구 저장” 흐름이 존재하지 않았다.
+- **문제:** 초기 예제는 임시 비밀번호 발급까지는 가능하지만, “사용자가 원하는 비밀번호 입력 -> 영구 저장” 흐름이 존재하지 않았다.
 - **해결:**
     - Repository에 `update(Member member)` 메서드를 직접 추가
     - MemoryMemberRepository에서 전체 저장소 업데이트 + 파일 저장 로직 구현
     - Service에 `updatePassword(loginId, phoneNumber, newPassword)` 추가
     - Controller에서 newPassword를 입력하는 폼과 처리 라우트를 구성
-    - Templates에 새 비밀번호 입력 UI 및 결과 페이지 추가
-        
-        이러한 흐름은 인터넷 예제에 없던 기능으로, 보고서 요구에 따라 직접 설계해 구현했다.
-        
+    - Templates에 새 비밀번호 입력 UI 및 결과 페이지 추가 
 
 ### 5) 템플릿 충돌 및 공통 UI 구성
 
@@ -170,7 +167,7 @@ private void storeToFile() {
 
 ### 6) 라우트 충돌 문제
 
-- **문제:** `/members/new`가 여러 컨트롤러에 존재해 ambiguous mapping 오류 발생.
+- **문제:** `/members/new`가 여러 컨트롤러에 존재해 ambiguous mapping(어떤 입력이 어떤 출력과 연결되는지 불명확한 상황) 오류 발생.
 - **해결:** 해당 매핑을 단일 컨트롤러로 통합해 문제 해결.
 
 ---
